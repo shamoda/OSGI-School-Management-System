@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EventSubscriber
+Bundle-SymbolicName: EventSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: eventsubscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-13
+Automatic-Module-Name: EventSubscriber
+Import-Package: org.osgi.framework;version="1.3.0", 
+ eventpublisher.service,
+ eventpublisher.model, 
+ budgetpublisher.service, 
+ budgetpublisher.model
+Bundle-ActivationPolicy: lazy

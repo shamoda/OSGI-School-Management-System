@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TeacherPublisher
+Bundle-SymbolicName: TeacherPublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: teacherpublisher.Activator
+Automatic-Module-Name: TeacherPublisher
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: teacherpublisher.model, teacherpublisher.service

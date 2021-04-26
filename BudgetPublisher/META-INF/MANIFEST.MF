@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BudgetPublisher
+Bundle-SymbolicName: BudgetPublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: budgetpublisher.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-13
+Automatic-Module-Name: BudgetPublisher
+Import-Package: org.osgi.framework;version="1.3.0", eventpublisher.service, eventpublisher.model
+Bundle-ActivationPolicy: lazy
+Export-Package: budgetpublisher.model, budgetpublisher.service

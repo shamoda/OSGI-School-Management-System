@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: StudentResultSubscriber
+Bundle-SymbolicName: StudentResultSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: studentresultsubscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: StudentResultSubscriber
+Import-Package: org.osgi.framework;version="1.3.0",
+ studentresult,
+ studentresult.Service
+Bundle-ActivationPolicy: lazy
